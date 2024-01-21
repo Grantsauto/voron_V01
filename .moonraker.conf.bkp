@@ -52,6 +52,11 @@ requirements = scripts/KlipperScreen-requirements.txt
 install_script = scripts/KlipperScreen-install.sh
 managed_services = KlipperScreen
 
+[update_manager fluidd]
+type = web
+repo = fluidd-core/fluidd
+path = ~/fluidd
+
 [update_manager timelapse]
 type = git_repo
 primary_branch = main
