@@ -28,6 +28,10 @@ trusted_clients =
 
 [history]
 
+[spoolman]
+server = http://192.168.0.136:7912
+sync_rate = 5
+
 [update_manager]
 refresh_interval = 168
 enable_auto_refresh = True
